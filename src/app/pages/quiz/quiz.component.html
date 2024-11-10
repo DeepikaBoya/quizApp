@@ -1,0 +1,40 @@
+<div class="min-h-screen flex justify-center items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+   
+   
+    <!-- Your content inside the card remains the same -->
+     @if(currentQuestion){
+    <div class="flex flex-col items-center w-6/12 gap-4 shadow-xl p-10 rounded-xl bg-white transform transition duration-500 hover:scale-105">
+      <h4 class="text-xl font-bold text-pink-600">{{quizInfo.name}}</h4>
+      <div class="p-4  w-full shadow mb-2">
+        <p>{{currentQuestion.content}}</p>
+      <!--  upper Questions ko get Krne ke liye  -->
+  
+      </div>
+  
+  
+      <!-- options ke liye for loop lagye hai  -->
+      @for (option of currentQuestion.options; track option) {
+      <div class="w-full flex items-center p-4 shadow mb-2 cursor-pointer" (click)="currentSelectedOptionId=option.id">
+        <mat-radio-button color="primary" [value]="option.id" [checked]="currentSelectedOptionId==option.id"></mat-radio-button>
+        <p>{{option.content}}</p>
+        <!-- upeer agar user kahai pe click kre to wohi page selet ho  -->
+  
+  
+        <!-- upper option options.conetnt lagya gai wo options ko show krne ke liyer lagya hai  -->
+      </div>
+    }
+  
+  
+    <!-- Next Button ko create krunga  -->
+    <div class=" w-full flex justify-end">
+      @if(currentQuestionNo==quizInfo.questions.length-1){
+      <button mat-flat-button color="primary" (click)="submit()">Submit</button>
+      }@else {
+      <button mat-flat-button color="primary" (click)="next()">Save & Next</button>
+    }
+    </div>
+  
+  
+    </div>
+  }
+  </div>

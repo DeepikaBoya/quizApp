@@ -1,0 +1,306 @@
+{  
+  "questions": [
+    {
+      "id": "1",
+      "content": "What is Angular?",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "options": [
+        {
+          "id": "a",
+          "content": "A front-end framework",
+          "isCorrect": true
+        },
+        {
+          "id": "b",
+          "content": "A back-end framework",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "content": "A database",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "content": "A programming language",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "content": " Which directive is used to create two-way data binding in Angular?",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "options": [
+        {
+          "id": "a",
+          "content": "ng-model",
+          "isCorrect": true
+        },
+        {
+          "id": "b",
+          "content": "ng-init",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "content": "ng-app",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "content": "ng-bind",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "content": "What is the purpose of Angular CLI?",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "options": [
+        {
+          "id": "a",
+          "content": "To execute Angular projects",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "To scaffold and build Angular applications",
+          "isCorrect": true
+        },
+        {
+          "id": "c",
+          "content": "To create Angular templates",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "content": "To write Angular code",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "content": "Which of the following is a lifecycle hook in Angular?",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "options": [
+        {
+          "id": "a",
+          "content": "ngOnInit",
+          "isCorrect": true
+        },
+        {
+          "id": "b",
+          "content": "ngDestroy",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "content": "ngAfterView",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "content": "ngCreate",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "content": ". Which file is the entry point of an Angular application?",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "options": [
+        {
+          "id": "a",
+          "content": "index.html",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "main.ts",
+          "isCorrect": true
+        },
+        {
+          "id": "c",
+          "content": "app.module.ts",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "content": "styles.css",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "quizs": [
+    {
+      "id": "1",
+      "name": "Angular quiz 1",
+      "code": "Ngquiz01",
+      "questions": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Angular quiz 2",
+      "code": "Ngquiz02",
+      "questions": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "quizResults": [
+    {
+      "id": "709b",
+      "name": "DD",
+      "quizId": "2",
+      "response": [
+        {
+          "questionId": "1",
+          "answerOptionId": "a"
+        },
+        {
+          "questionId": "2",
+          "answerOptionId": "a"
+        },
+        {
+          "questionId": "3",
+          "answerOptionId": "a"
+        },
+        {
+          "questionId": "4",
+          "answerOptionId": "a"
+        },
+        {
+          "questionId": "5",
+          "answerOptionId": ""
+        }
+      ],
+      "correct": 3,
+      "inCorrect": 1,
+      "unAttempt": 1,
+      "score": 2.75,
+      "percentage": 55
+    },
+    {
+      "id": "c389",
+      "name": "fff",
+      "quizId": "2",
+      "response": []
+    },
+    {
+      "id": "dbfb",
+      "name": "dd",
+      "quizId": "2",
+      "response": [
+        {
+          "questionId": "1",
+          "answerOptionId": "c"
+        },
+        {
+          "questionId": "2",
+          "answerOptionId": ""
+        },
+        {
+          "questionId": "3",
+          "answerOptionId": ""
+        },
+        {
+          "questionId": "4",
+          "answerOptionId": ""
+        },
+        {
+          "questionId": "5",
+          "answerOptionId": ""
+        }
+      ],
+      "correct": 0,
+      "inCorrect": 1,
+      "unAttempt": 4,
+      "score": -0.25,
+      "percentage": -5
+    },
+    {
+      "id": "f814",
+      "name": "cc",
+      "quizId": "2",
+      "response": [
+        {
+          "questionId": "1",
+          "answerOptionId": ""
+        },
+        {
+          "questionId": "2",
+          "answerOptionId": ""
+        },
+        {
+          "questionId": "3",
+          "answerOptionId": ""
+        },
+        {
+          "questionId": "4",
+          "answerOptionId": ""
+        },
+        {
+          "questionId": "5",
+          "answerOptionId": ""
+        }
+      ],
+      "correct": 0,
+      "inCorrect": 0,
+      "unAttempt": 5,
+      "score": 0,
+      "percentage": 0
+    },
+    {
+      "id": "7200",
+      "name": "Deepika",
+      "quizId": "2",
+      "response": [
+        {
+          "questionId": "1",
+          "answerOptionId": "b"
+        },
+        {
+          "questionId": "2",
+          "answerOptionId": ""
+        },
+        {
+          "questionId": "3",
+          "answerOptionId": ""
+        },
+        {
+          "questionId": "4",
+          "answerOptionId": ""
+        },
+        {
+          "questionId": "5",
+          "answerOptionId": ""
+        }
+      ],
+      "correct": 0,
+      "inCorrect": 1,
+      "unAttempt": 4,
+      "score": -0.25,
+      "percentage": -5
+    }
+  ]
+}

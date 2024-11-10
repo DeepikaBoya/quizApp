@@ -1,0 +1,22 @@
+<div class="min-h-screen flex justify-center items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+  <div class="flex flex-col items-center w-100 gap-4 shadow-lg p-10 rounded-xl bg-white">
+    <h4 class="text-xl font-bold text-gray-700 text-center">Please Enter Quiz Code and Your Name</h4>
+
+    <mat-form-field class="w-full">
+      <mat-label>Code</mat-label>
+      <input type="text" matInput [(ngModel)]="code" placeholder="Enter Code" class="no-outline-input" />
+    </mat-form-field>
+
+    <mat-form-field class="w-full">
+      <mat-label>Name</mat-label>
+      <input type="text" matInput [(ngModel)]="name" placeholder="Enter Your Name" class="no-outline-input" />
+    </mat-form-field>
+
+    <!-- Display error message -->
+    <p *ngIf="errorMessage" class="text-red-500 font-bold">{{ errorMessage }}</p>
+
+    <button mat-raised-button color="primary" class="w-6/12 mt-4 py-2 text-white bg-blue-600 hover:bg-blue-700 rounded-md shadow-md transition duration-300" (click)="join()">
+      Join
+    </button>
+  </div>
+</div>
